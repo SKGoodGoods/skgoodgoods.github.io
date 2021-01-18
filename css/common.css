@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    min-width: 1300px;
+    font-family: PingFang HK;
+}
+@media screen and (max-width: 1400px){
+    body{
+        min-width: 1300px;
+    }
+    .margin-bottom-20{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-width:1401px) and (max-width:1700px){
+    body{
+        min-width: 1400px;
+    }
+    .margin-bottom-20{
+        margin-bottom: 35px;
+    }
+}
+@media screen and (min-width:1701px){
+    body{
+        min-width: 1700px;
+    }
+    .margin-bottom-20{
+        margin-bottom: 50px;
+    }
+}
+.width-pre-100{
+    width: 100%;
+}
+.display-flex-con{
+    display: -moz-box;  /* Firefox */
+    display: -ms-flexbox;    /* IE10 */
+    display: -webkit-box;    /* Safari */ 
+    display: -webkit-flex;    /* Chrome, WebKit */
+    display: box; 
+    display: flexbox; 
+    display: flex;
+}
+
+/* .margin-bottom-20{
+    margin-bottom: 20px;
+} */
+
+.title-lv1{
+    font-family: Arial Black;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 90px;
+    text-align: left;
+}
+.title-lv2{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 45px;
+    text-align: left;
+}
+.title-lv3{
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31px;
+    text-align: left;
+}
+
+.title-margin{
+    margin-bottom: 20px;
+}
+
+textarea{
+    resize: none;
+}
